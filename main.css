@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#525C60;
+}
+
+.container{
+    width: 35%;
+    margin: 60px auto;
+    background:#FFFFFF;
+    border-radius: 20px;
+    height: 740px;
+}
+.cancel{
+    width: 25px;
+    height: 25px;
+    margin: 20px 0px 0px 620px
+}
+
+
+.container h1{
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 59px;
+    color: #274C5B;
+    padding-top: 45px;
+
+}
+
+.container1{
+    width: 60%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+label{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 165.4%;
+color: #525C60;
+margin-bottom: -15px;
+}
+
+input{
+    width: 400px;
+    height: 43px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    border: 1px solid #ABABAB;
+    ;
+}
+
+.continue{
+    width: 400px;
+    height: 50px;
+    border: none;
+    background: #D4D4D4;
+    border-radius: 25px;
+    margin-top: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    
+}
+
+.divider{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 23px;
+    height: 39px;
+    margin: 25px 0px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 165.4%;
+    color: #525C60;
+}
+
+.divider hr{
+    width: 163px;
+    color:#ABABAB;
+}
+
+
+.button{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    border: 1px dashed #7B61FF;
+    border-radius: 5px;
+    gap: 15px;
+}
+
+.button button{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background: #FFFFFF;
+border: 1px solid #274C5B;
+border-radius: 25px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 165.4%;
+color: #274C5B;
+}
+
+button img{
+    width: 20px;
+    height: 20px;
+}
+
